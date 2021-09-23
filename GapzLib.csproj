@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="DBHelper\Access\" />
+    <Folder Include="DBHelper\Mysql\" />
+    <Folder Include="FormHelper\Control\" />
+    <Folder Include="ImageHelper\Bitmap\" />
+    <Folder Include="SecurityHelper\" />
+    <Folder Include="OCRHelper\Tesserract\" />
+    <Folder Include="StringHelper\Regex\" />
+    <Folder Include="StringHelper\Validate\" />
+    <Folder Include="ThailandLib\Citizen\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+
+</Project>
