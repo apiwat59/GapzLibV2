@@ -4,7 +4,15 @@ using System.Text;
 
 namespace GapzLib.Chrome
 {
-    class Core
+    public static class Core
     {
+        public static Driver Driver { get; private set; }
+
+        public static void InitializeDriver()
+        {
+            // Initialize new driver
+            Driver = new Driver();
+        }
+
     }
 }
